@@ -97,22 +97,19 @@ html {
 }
 
 .text {
-  font-family: monospace; 
-  border-right: 2px solid;
-  width: 18ch;
+  font-family: monospace;
   white-space: nowrap;
-  overflow: hidden;
-  animation:
-    typing 2s steps(18),
-    cursor .4s step-end infinite alternate;
+  width: fit-content;
+}
+
+.text::after {
+  content: '\200B';
+  border-left: 2px solid;
+  animation: cursor .4s step-end infinite alternate;
 }
 
 @keyframes cursor {
-  50% { border-color: transparent } 
-}
-
-@keyframes typing {
-  from { width: 0 }
+  50% { border-color: transparent; }
 }
 
 .norca-container {

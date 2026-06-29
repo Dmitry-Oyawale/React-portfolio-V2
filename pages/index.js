@@ -15,6 +15,7 @@ import LogoLoader from "../pages/LogoLoad";
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
+  const [displayText, setDisplayText] = useState("");
 
     useEffect(() => {
     const timer = setTimeout(() => {
@@ -23,6 +24,40 @@ export default function Home() {
 
     return () => clearTimeout(timer);
     }, []);
+
+  useEffect(() => {
+    const phrases = ["Software Developer", "AI Engineer"];
+    let phraseIndex = 0;
+    let charIndex = 0;
+    let isDeleting = false;
+    let timeout;
+
+    const tick = () => {
+      const current = phrases[phraseIndex];
+      if (isDeleting) {
+        charIndex--;
+        setDisplayText(current.slice(0, charIndex));
+        if (charIndex === 0) {
+          isDeleting = false;
+          phraseIndex = (phraseIndex + 1) % phrases.length;
+          timeout = setTimeout(tick, 400);
+          return;
+        }
+        timeout = setTimeout(tick, 130);
+      } else {
+        charIndex++;
+        setDisplayText(current.slice(0, charIndex));
+        if (charIndex === current.length) {
+          timeout = setTimeout(() => { isDeleting = true; tick(); }, 1500);
+          return;
+        }
+        timeout = setTimeout(tick, 100);
+      }
+    };
+
+    timeout = setTimeout(tick, 100);
+    return () => clearTimeout(timeout);
+  }, []);
 
     if (isLoading) {
     return (
@@ -84,7 +119,7 @@ export default function Home() {
                         kevin Lai
                     </h1>
                     <h1 className="text py-2 font-bold text-gray-400 text-2xl">
-                        Software Developer
+                        {displayText}
                     </h1>
                     <h1 className="py-2 text-gray-400 text-2xl">
                         Student at Worcester Polytechnic Institute with full stack development experience, driven profoundly by career-oriented ambition and an avidity for building technological breadth. 
@@ -107,7 +142,7 @@ export default function Home() {
                     <br></br>
                     <div className="text-gray-400 [font-family:var(--font-space)]">
                         <h2 className="text-sm sm:w-1/2">
-                             I’m a student at Worcester Polytechnic Institute dedicated to the field of Computer Science. The fast-paced, team-oriented school culture resonates with me as I am always open to forming new connections and seeking new opportunities, whether on or off-campus. Though I once harbored ambitions in web development, I find the current zeitgeist  conducive to furthering my interests in machine learning, cybersecurity, and robotics engineering, which I hope to double major in. 
+                             I’m a student at Worcester Polytechnic Institute dedicated to the field of Computer Science. The fast-paced, team-oriented school culture resonates with me as I am always open to forming new connections and seeking new opportunities, whether on or off-campus. Though I once harbored ambitions in web development, I find the current zeitgeist  conducive to furthering my interests in machine learning, data science, and artificial intelligence, which I hope to double major in. 
                         </h2>
                         <h1 className="text-sm mt-4 sm:mt-0 second-half-text">
                             My past work has revolved mainly around democratizing education for the 21st century world. At Tzu Chi I managed lesson logistics and technological troubleshooting for students in a language course, while at MyEdMaster I developed an app for SAT test practice to provide low-cost tutoring. My latest internship at Framingham Public Schools aims to vastly upscale English-language fluency for migrant families, via a web tool facilitating rapid, mass translation, parsing, and distribution of school content. 
