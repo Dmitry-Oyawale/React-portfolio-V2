@@ -265,6 +265,34 @@ export default function Home() {
                     <div className="px-4 sm:px-8 lg:px-24 trans-container group relative overflow-hidden">
                         <div className="relative items-start gap-2 flex flex-col sm:flex-row">
                             <h1 className="text-1xl text-gray-400 w-50 shrink-0"> 
+                                May 2026 – July 2026
+                            </h1>
+                            <div className="flex flex-col gap-3">
+                                <div className="flex child-container justify-between">
+                                    <h1 className="child-container text-[1.35rem] text-gray-200">
+                                        LLM Research Intern - Semiconductor Design Automation
+                                    </h1>
+                                    <a href="https://www.framingham.k12.ma.us/" target="_blank" rel="noopener noreferrer">
+                                        <IconLink className="w-7 text-gray-200 child-container hover:text-white transition" />
+                                    </a>
+                                </div>
+                                <p className="text-1xl text-gray-400">
+                                    Converted 780+ LLM-generated Verilog benchmark tasks into ICLAB-compatible RTL, synthesis, and gate-level simulation workflows. Built Verilog DUT/testbench pairs with VCS/SystemVerilog, automated validation pipelines, and explored RAG-based and agentic automation for reproducible semiconductor chip design and EDA evaluation.
+                                </p>
+                                <div className="gap-2">
+                                    <div className="flex flex-row justify-start gap-2 text-sm text-teal-400">
+                                        <h3 className="mini-container">Python</h3>
+                                        <h3 className="mini-container">Verilog</h3>
+                                        <h3 className="mini-container">PyTorch</h3>
+                                        <h3 className="mini-container">Docker</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="px-4 sm:px-8 lg:px-24 trans-container group relative overflow-hidden">
+                        <div className="relative items-start gap-2 flex flex-col sm:flex-row">
+                            <h1 className="text-1xl text-gray-400 w-50 shrink-0"> 
                                 Jan. 2025 – Aug. 2025
                             </h1>
                             <div className="flex flex-col gap-3">
@@ -281,15 +309,16 @@ export default function Home() {
                                 </p>
                                 <div className="gap-2">
                                     <div className="flex flex-row flex-wrap justify-start gap-2 text-sm text-teal-400">
-                                        <h3 className="mini-container">JavaScript</h3>
-                                        <h3 className="mini-container">React.js</h3>
                                         <h3 className="mini-container">Python</h3>
+                                        <h3 className="mini-container">React</h3>
+                                        <h3 className="mini-container">JavaScript</h3>
                                         <h3 className="mini-container">SQL</h3>
                                         <h3 className="mini-container">Django</h3>
                                 
                                         <h3 className="mini-container">Node.js</h3>
                                         <h3 className="mini-container">HTML</h3>
                                         <h3 className="mini-container">CSS</h3>
+                                        <h3 className="mini-container">WebSocket</h3>
                                     </div>  
                                 </div>
                             </div>
@@ -315,8 +344,9 @@ export default function Home() {
                                 <div className="gap-2">
                                     <div className="flex flex-row justify-start gap-2 text-sm text-teal-400">
                                         <h3 className="mini-container">Python</h3>
-                                        <h3 className="mini-container">HTML</h3>
+                                        <h3 className="mini-container">JavaScript</h3>
                                         <h3 className="mini-container">CSS</h3>
+                                        <h3 className="mini-container">HTML</h3>
                                     </div>
                                 </div>
                             </div>
@@ -327,7 +357,7 @@ export default function Home() {
             </FadeIn>
             {/* Projects */}
             <FadeIn>
-            <section id="projects" className="min-h-screen scroll-mt-24 ">  
+            <section id="projects" className="min-h-screen scroll-mt-24  mt-19 sm:mt-36 lg:mt-32">  
                 <div className="px-6 sm:px-10 lg:px-24 xl:px-67  text-gray-200 [font-family:var(--font-space)]">
                     <h1 className="text-6xl text-teal-500 [font-family:var(--font-space)]">
                             projects.
