@@ -141,18 +141,17 @@ export default function Home() {
                     </h1>
                     <br></br>
                     <div className="text-gray-400 [font-family:var(--font-space)]">
-                        <h2 className="text-sm sm:w-1/2">
+                        <h2 className="text-sm sm:w-1/2 sm:pr-2.5">
                              I’m a student at Worcester Polytechnic Institute dedicated to the field of Computer Science. The fast-paced, team-oriented school culture resonates with me as I am always open to forming new connections and seeking new opportunities, whether on or off-campus. Though I once harbored ambitions in web development, I find the current zeitgeist  conducive to furthering my interests in machine learning, data science, and artificial intelligence, which I hope to double major in. 
                         </h2>
                         <h1 className="text-sm mt-4 sm:mt-0 second-half-text">
-                            My past work has revolved mainly around democratizing education for the 21st century world. At Tzu Chi I managed lesson logistics and technological troubleshooting for students in a language course, while at MyEdMaster I developed an app for SAT test practice to provide low-cost tutoring. My latest internship at Framingham Public Schools aims to vastly upscale English-language fluency for migrant families, via a web tool facilitating rapid, mass translation, parsing, and distribution of school content. 
+                            My past work has revolved mainly around democratizing education for the 21st century world. At Tzu Chi I managed lesson logistics and technological troubleshooting for students in a language course, while at MyEdMaster I developed an app for SAT test practice to provide low-cost tutoring. My recent internship at Framingham Public Schools aims to vastly upscale English-language fluency for migrant families, via a web tool facilitating rapid, mass translation, parsing, and distribution of school content. 
                         </h1>
                         <br></br>
-                        <h1 className="text-sm sm:w-1/2">
-                            In my free time I am keen to workout, listen to music, and go for a run or hike; at WPI I am involved in the run club and Association for Computing Machinery. I seek to travel more and actively take in the exciting world around us; I am also interested in history, philosophy, and economics. In the past I have run a personal blog to catalog my readings. 
+                        <h1 className="text-sm sm:w-1/2 sm:pr-2.5">
+                            In my free time I am keen to workout, listen to music, and go for a run or hike; at WPI I am involved in the running club and the Association for Computing Machinery. I seek to travel more and actively take in the enthralling world around us; I am also interested in history, philosophy, and economics. In the past I have run a personal blog to catalog my readings. 
                         </h1>
-                        <br></br>
-                        <br></br>
+                        <br></br><br></br><br></br>
                         <div className="flex flex-col flex-wrap justify-center items-center text-center">
                             <h1 className="text-sm">
                                 My current tech stack includes the following:
@@ -209,7 +208,7 @@ export default function Home() {
                                     </li>
                                     <li className="flex flex-wrap items-center stack-fade12"> 
                                         <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
-                                        Node.js
+                                        SQL
                                     </li>
                                 </ul>
                                 <ul className="text-sm">
@@ -270,14 +269,14 @@ export default function Home() {
                             <div className="flex flex-col gap-3">
                                 <div className="flex child-container justify-between">
                                     <h1 className="child-container text-[1.35rem] text-gray-200">
-                                        LLM Research Intern - Semiconductor Design Automation
+                                        LLM Research Intern - Semiconductor Design Automation · NYCU 
                                     </h1>
-                                    <a href="https://www.framingham.k12.ma.us/" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://www.nycu.edu.tw/nycu/ch/index" target="_blank" rel="noopener noreferrer">
                                         <IconLink className="w-7 text-gray-200 child-container hover:text-white transition" />
                                     </a>
                                 </div>
                                 <p className="text-1xl text-gray-400">
-                                    Converted 780+ LLM-generated Verilog benchmark tasks into ICLAB-compatible RTL, synthesis, and gate-level simulation workflows. Built Verilog DUT/testbench pairs with VCS/SystemVerilog, automated validation pipelines, and explored RAG-based and agentic automation for reproducible semiconductor chip design and EDA evaluation.
+                                    Converted 780+ LLM-generated Verilog benchmark tasks into ICLAB-compatible RTL, synthesis, and gate-level simulation workflows. Developed Verilog DUT/testbench pairs with VCS/SystemVerilog, automated validation pipelines, and explored RAG-based and agentic automation for reproducible semiconductor chip design and EDA evaluation.
                                 </p>
                                 <div className="gap-2">
                                     <div className="flex flex-row justify-start gap-2 text-sm text-teal-400">
@@ -366,9 +365,29 @@ export default function Home() {
                     <div className="px-4 sm:px-8 lg:px-24 site-container">
                         <div className="flex justify-between">
                             <h1 className="text-3xl">
+                                GPT2-style LLM
+                            </h1>
+                            <a href="https://github.com/Dmitry-Oyawale/Generatively-Pretrained-Transformer" target="_blank" rel="noopener noreferrer">
+                                <IconLink className="w-7 hover:text-white transition" />
+                            </a>
+                        </div>
+                        <br></br>
+                        <h1 className="text-[.9rem]">
+                            A GPT-2-style character-level language model in PyTorch with transformer components, AdamW training, GPU acceleration, validation evaluation, autoregressive inference, and 30K+ generated character samples.
+                        </h1>
+                        <br></br>
+                        <div className="text-gray-400 text-[.9rem] flex flex-wrap gap-6">
+                            <p>Python</p>
+                            <p>PyTorch</p>
+                            <p>Docker</p>
+                        </div>
+                    </div>
+                    <div className="px-4 sm:px-8 lg:px-24 site-container">
+                        <div className="flex justify-between">
+                            <h1 className="text-3xl">
                                 Research Position Matcher
                             </h1>
-                            <a href="https://github.com/Dmitry-Oyawale/projectphase3-querycrushers" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/Dmitry-Oyawale/team-resumemaxxersB" target="_blank" rel="noopener noreferrer">
                                 <IconLink className="w-7 hover:text-white transition" />
                             </a>
                         </div>
@@ -379,11 +398,14 @@ export default function Home() {
                         <br></br>
                         <div className="text-gray-400 text-[.9rem] flex flex-wrap gap-6">
                             <p>Python</p>
+                            <p>Flask</p>
                             <p>HTML</p>
                             <p>CSS</p>
                             <p>JavaScript</p>
                             <p>SQL</p>
                             <p>PostgreSQL</p>
+                            <p>AWS</p>
+                            <p>Docker</p>
                         </div>
                     </div>
                     <div className="px-4 sm:px-8 lg:px-24 site-container">
@@ -397,7 +419,7 @@ export default function Home() {
                         </div>
                         <br></br>
                         <h1 className="text-[.9rem]">
-                            A scalable PostgreSQL database for 100K+ Yelp records and a JavaFX application for interactive querying and visualization.
+                            A scalable PostgreSQL database for 100K+ Yelp records with a JavaFX application that supports interactive querying, filtering, and data visualization for exploring business, review, and user insights.
                         </h1>
                         <br></br>
                         <div className="text-gray-400 text-[.9rem] flex flex-wrap gap-6">
@@ -406,31 +428,6 @@ export default function Home() {
                             <p>CSS</p>
                             <p>SQL</p>
                             <p>PostgreSQL</p>
-                        </div>
-                    </div>
-                    <div className="px-4 sm:px-8 lg:px-24 site-container">
-                        <div className="flex justify-between">
-                            <h1 className="text-3xl">
-                                Python Notes Website
-                            </h1>
-                            <a href="https://github.com/Dmitry-Oyawale/Flask-Web-App-3" target="_blank" rel="noopener noreferrer">
-                                <IconLink className="w-7 hover:text-white transition" />
-                            </a>
-                        </div>
-                        <br></br>
-                        <h1 className="text-[.9rem]">
-                            A Python-based notes application using Flask with secure authentication, SQLAlchemy-backed data persistence, and a responsive user interface for managing personal notes.
-                        </h1>
-                        <br></br>
-                        <div className="text-gray-400 text-[.9rem] flex flex-wrap gap-6">
-                            <p>Python</p>
-                            <p>CSS</p>
-                            <p>HTML</p>
-                            <p>JavaScript</p>
-                            <p>Bootstrap</p>
-                            <p>Jinja</p>
-                            <p>Flask</p>
-                            <p>SQL</p>
                         </div>
                     </div>
                 </div>
@@ -469,7 +466,12 @@ export default function Home() {
 
                     <p className="text-center text-gray-400 px-6 sm:px-12 lg:px-30 mt-6 sm:mt-10 lg:mt-16">
                         Designed and built from scratch with React and Next.js, styled with Tailwind CSS, and deployed on AWS. Typography set in Inter and Space Grotesk.
-                    </p>
+                    </p><br></br><br></br>
+                    <div className="text-center text-gray-400 px-6 sm:px-12 lg:px-30">
+                        <a href="https://github.com/Dmitry-Oyawale/React-portfolio-V2/" target="_blank" rel="noopener noreferrer">
+                        <u>Website source code</u>
+                    </a>
+                    </div>
                 </div>
             </section>
             </FadeIn>
