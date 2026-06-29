@@ -142,6 +142,14 @@ html {
 .fade-trigger[data-tick] .stack-fade10 { animation: in-fade 1.67s ease forwards; }
 .fade-trigger[data-tick] .stack-fade11 { animation: in-fade 1.83s ease forwards; }
 .fade-trigger[data-tick] .stack-fade12 { animation: in-fade 2s    ease forwards; }
+.fade-trigger[data-tick] .stack-fade13 { animation: in-fade 2.17s ease forwards; }
+.fade-trigger[data-tick] .stack-fade14 { animation: in-fade 2.33s ease forwards; }
+.fade-trigger[data-tick] .stack-fade15 { animation: in-fade 2.5s  ease forwards; }
+.fade-trigger[data-tick] .stack-fade16 { animation: in-fade 2.67s ease forwards; }
+.fade-trigger[data-tick] .stack-fade17 { animation: in-fade 2.83s ease forwards; }
+.fade-trigger[data-tick] .stack-fade18 { animation: in-fade 3s    ease forwards; }
+.fade-trigger[data-tick] .stack-fade19 { animation: in-fade 3.17s ease forwards; }
+.fade-trigger[data-tick] .stack-fade20 { animation: in-fade 3.33s ease forwards; }
 
 @keyframes in-fade {
   0% {

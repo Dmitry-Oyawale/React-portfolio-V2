@@ -165,53 +165,87 @@ export default function Home() {
                                     </li>
                                     <li className="flex flex-wrap items-center stack-fade2"> 
                                         <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
-                                        Java
+                                        React
                                     </li>
                                     <li className="flex flex-wrap items-center stack-fade3"> 
                                         <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
-                                        C
+                                        PostgreSQL
+                                    </li>
+                                    <li className="flex flex-wrap items-center stack-fade4"> 
+                                        <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
+                                        Flask
                                     </li>
                                 </ul>
                                 <ul className="text-sm">
-                                    <li className="flex flex-wrap items-center stack-fade4"> 
-                                        <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
-                                        C++
-                                    </li>
                                     <li className="flex flex-wrap items-center stack-fade5"> 
                                         <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
-                                        SQL
+                                        Docker
                                     </li>
                                     <li className="flex flex-wrap items-center stack-fade6"> 
+                                        <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
+                                        AWS
+                                    </li>
+                                    <li className="flex flex-wrap items-center stack-fade7"> 
+                                        <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
+                                        Node.js
+                                    </li>
+                                    <li className="flex flex-wrap items-center stack-fade8"> 
+                                        <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
+                                        JavaScript
+                                    </li>
+                                </ul>
+                                <ul className="text-sm">
+                                    <li className="flex flex-wrap items-center stack-fade9"> 
+                                        <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
+                                        CSS
+                                    </li>
+                                    <li className="flex flex-wrap items-center stack-fade10"> 
+                                        <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
+                                        HTML
+                                    </li>
+                                    <li className="flex flex-wrap items-center stack-fade11"> 
+                                        <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
+                                        Django
+                                    </li>
+                                    <li className="flex flex-wrap items-center stack-fade12"> 
                                         <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
                                         Node.js
                                     </li>
                                 </ul>
                                 <ul className="text-sm">
-                                    <li className="flex flex-wrap items-center stack-fade7"> 
+                                    <li className="flex flex-wrap items-center stack-fade13"> 
                                         <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
-                                        JavaScript
+                                        FastAPI
                                     </li>
-                                    <li className="flex flex-wrap items-center stack-fade8"> 
+                                    <li className="flex flex-wrap items-center stack-fade14"> 
                                         <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
-                                        CSS
+                                        C
                                     </li>
-                                    <li className="flex flex-wrap items-center stack-fade9"> 
+                                    <li className="flex flex-wrap items-center stack-fade15"> 
                                         <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
-                                        HTML
+                                        PyTorch
+                                    </li>
+                                    <li className="flex flex-wrap items-center stack-fade16"> 
+                                        <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
+                                        Java
                                     </li>
                                 </ul>
                                 <ul className="text-sm">
-                                    <li className="flex flex-wrap items-center stack-fade10"> 
+                                    <li className="flex flex-wrap items-center stack-fade17"> 
                                         <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
-                                        Django
+                                        C++
                                     </li>
-                                    <li className="flex flex-wrap items-center stack-fade11"> 
+                                    <li className="flex flex-wrap items-center stack-fade18"> 
                                         <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
-                                        React.js
+                                        WebSocket
                                     </li>
-                                    <li className="flex flex-wrap items-center stack-fade12"> 
+                                    <li className="flex flex-wrap items-center stack-fade19"> 
                                         <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
-                                        Flask
+                                        Git
+                                    </li>
+                                    <li className="flex flex-wrap items-center stack-fade20"> 
+                                        <span className="text-teal-500 text-2xl mr-2">&#x2023;</span>
+                                        FastAPI
                                     </li>
                                 </ul>
                             </div>
