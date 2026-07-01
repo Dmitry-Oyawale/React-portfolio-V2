@@ -17,6 +17,10 @@ body {
   font-family: inherit;
 }
 
+svg text {
+  -webkit-text-fill-color: initial;
+}
+
 a {
   color: inherit;
   text-decoration: none;
