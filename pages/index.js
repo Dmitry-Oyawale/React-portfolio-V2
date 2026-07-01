@@ -465,7 +465,7 @@ export default function Home() {
                     </div>
 
                     <p className="text-center text-gray-400 px-6 sm:px-12 lg:px-30 mt-6 sm:mt-10 lg:mt-16">
-                        Designed and built from scratch with React and Next.js, styled with Tailwind CSS, and deployed on AWS. Typography set in Inter and Space Grotesk.
+                        Designed and built from scratch with React and Next.js, styled with Tailwind CSS, and deployed on Vercel. Typography set in Inter and Space Grotesk.
                     </p><br></br><br></br>
                     <div className="text-center text-gray-400 px-6 sm:px-12 lg:px-30">
                         <a href="https://github.com/Dmitry-Oyawale/React-portfolio-V2/" target="_blank" rel="noopener noreferrer">
