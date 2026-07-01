@@ -2,6 +2,9 @@
 
 :root {
   color-scheme: dark;
+  --color-teal-400: #00d3bd;
+  --color-teal-500: #00baa7;
+  --color-teal-700: #00776e;
 }
 
 html,
