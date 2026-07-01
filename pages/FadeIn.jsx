@@ -41,7 +41,7 @@ export default function FadeIn({ children }) {
       className={`transition-[opacity,transform,filter] duration-1800 ease-[cubic-bezier(0.16,1,0.3,1)] ${
         visible
           ? "opacity-100 translate-y-0 scale-100 filter-none fade-trigger"
-          : "opacity-0 translate-y-10 scale-97 blur-[3px] will-change-transform"
+          : "opacity-0 translate-y-10 scale-97 blur-[3px]"
       }`}
       data-tick={tick}
     >
